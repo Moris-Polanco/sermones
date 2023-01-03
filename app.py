@@ -25,7 +25,7 @@ def generate_article(title, outline):
 st.title("Generador de sermones")
 
 sidebar = st.sidebar
-title = sidebar.text_input("Título:")
+title = sidebar.text_input("Ocasión:")
 outline = sidebar.text_area("Esquema:")
 
 if st.button("Generar sermón"):
